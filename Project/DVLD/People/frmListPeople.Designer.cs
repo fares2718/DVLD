@@ -63,7 +63,7 @@
             this.dgvPeople.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvPeople.ContextMenuStrip = this.cmsPeople;
             this.dgvPeople.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
-            this.dgvPeople.Location = new System.Drawing.Point(12, 291);
+            this.dgvPeople.Location = new System.Drawing.Point(18, 288);
             this.dgvPeople.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dgvPeople.MultiSelect = false;
             this.dgvPeople.Name = "dgvPeople";
@@ -77,7 +77,7 @@
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dgvPeople.RowHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvPeople.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvPeople.Size = new System.Drawing.Size(1484, 371);
+            this.dgvPeople.Size = new System.Drawing.Size(1339, 371);
             this.dgvPeople.TabIndex = 0;
             this.dgvPeople.TabStop = false;
             this.dgvPeople.DoubleClick += new System.EventHandler(this.dgvPeople_DoubleClick);
@@ -169,7 +169,7 @@
             this.label1.Size = new System.Drawing.Size(80, 20);
             this.label1.TabIndex = 3;
             this.label1.Text = "Filter By:";
-             // 
+            // 
             // txtFilterValue
             // 
             this.txtFilterValue.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -263,9 +263,9 @@
             this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClose.Image = global::DVLD.Properties.Resources.Close_32;
             this.btnClose.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnClose.Location = new System.Drawing.Point(1361, 672);
+            this.btnClose.Location = new System.Drawing.Point(1232, 672);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(135, 36);
+            this.btnClose.Size = new System.Drawing.Size(107, 36);
             this.btnClose.TabIndex = 92;
             this.btnClose.Text = "Close";
             this.btnClose.UseVisualStyleBackColor = true;
@@ -278,7 +278,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.CancelButton = this.btnClose;
-            this.ClientSize = new System.Drawing.Size(1520, 740);
+            this.ClientSize = new System.Drawing.Size(1370, 720);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnAddPerson);
             this.Controls.Add(this.lblTitle);
