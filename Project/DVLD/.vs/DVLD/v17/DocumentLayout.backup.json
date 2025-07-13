@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Fares\\DVLD-Project\\DVLD\\Project\\DVLD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7A65E342-BF9D-4ABF-856F-3F4F7F7D3CE5}|DVLD.csproj|c:\\users\\fares\\dvld-project\\dvld\\project\\dvld\\people\\frmlistpeople.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A65E342-BF9D-4ABF-856F-3F4F7F7D3CE5}|DVLD.csproj|solutionrelative:people\\frmlistpeople.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7A65E342-BF9D-4ABF-856F-3F4F7F7D3CE5}|DVLD.csproj|c:\\users\\fares\\dvld-project\\dvld\\project\\dvld\\people\\frmlistpeople.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7A65E342-BF9D-4ABF-856F-3F4F7F7D3CE5}|DVLD.csproj|solutionrelative:people\\frmlistpeople.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A65E342-BF9D-4ABF-856F-3F4F7F7D3CE5}|DVLD.csproj|c:\\users\\fares\\dvld-project\\dvld\\project\\dvld\\people\\frmlistpeople.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A65E342-BF9D-4ABF-856F-3F4F7F7D3CE5}|DVLD.csproj|solutionrelative:people\\frmlistpeople.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A65E342-BF9D-4ABF-856F-3F4F7F7D3CE5}|DVLD.csproj|c:\\users\\fares\\dvld-project\\dvld\\project\\dvld\\people\\frmfindperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7A65E342-BF9D-4ABF-856F-3F4F7F7D3CE5}|DVLD.csproj|solutionrelative:people\\frmfindperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A65E342-BF9D-4ABF-856F-3F4F7F7D3CE5}|DVLD.csproj|c:\\users\\fares\\dvld-project\\dvld\\project\\dvld\\people\\frmshowpersoninfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7A65E342-BF9D-4ABF-856F-3F4F7F7D3CE5}|DVLD.csproj|solutionrelative:people\\frmshowpersoninfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A65E342-BF9D-4ABF-856F-3F4F7F7D3CE5}|DVLD.csproj|c:\\users\\fares\\dvld-project\\dvld\\project\\dvld\\people\\frmfindperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A65E342-BF9D-4ABF-856F-3F4F7F7D3CE5}|DVLD.csproj|solutionrelative:people\\frmfindperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A65E342-BF9D-4ABF-856F-3F4F7F7D3CE5}|DVLD.csproj|c:\\users\\fares\\dvld-project\\dvld\\project\\dvld\\people\\controls\\ctrlpersoncardwithfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A65E342-BF9D-4ABF-856F-3F4F7F7D3CE5}|DVLD.csproj|solutionrelative:people\\controls\\ctrlpersoncardwithfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A65E342-BF9D-4ABF-856F-3F4F7F7D3CE5}|DVLD.csproj|c:\\users\\fares\\dvld-project\\dvld\\project\\dvld\\people\\controls\\ctrlpersoncardwithfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7A65E342-BF9D-4ABF-856F-3F4F7F7D3CE5}|DVLD.csproj|solutionrelative:people\\controls\\ctrlpersoncardwithfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,31 +38,93 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmListPeople.cs",
-              "DocumentMoniker": "C:\\Users\\Fares\\DVLD-Project\\DVLD\\Project\\DVLD\\People\\frmListPeople.cs",
-              "RelativeDocumentMoniker": "People\\frmListPeople.cs",
-              "ToolTip": "C:\\Users\\Fares\\DVLD-Project\\DVLD\\Project\\DVLD\\People\\frmListPeople.cs",
-              "RelativeToolTip": "People\\frmListPeople.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAA+AAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "frmListPeople.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Fares\\DVLD-Project\\DVLD\\Project\\DVLD\\People\\frmListPeople.Designer.cs",
+              "RelativeDocumentMoniker": "People\\frmListPeople.Designer.cs",
+              "ToolTip": "C:\\Users\\Fares\\DVLD-Project\\DVLD\\Project\\DVLD\\People\\frmListPeople.Designer.cs",
+              "RelativeToolTip": "People\\frmListPeople.Designer.cs",
+              "ViewState": "AgIAAOwAAAAAAAAAAAAAAPwAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T21:19:20.103Z",
+              "WhenOpened": "2025-07-13T17:53:32.417Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "frmShowPersonInfo.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Fares\\DVLD-Project\\DVLD\\Project\\DVLD\\People\\frmShowPersonInfo.cs",
+              "RelativeDocumentMoniker": "People\\frmShowPersonInfo.cs",
+              "ToolTip": "C:\\Users\\Fares\\DVLD-Project\\DVLD\\Project\\DVLD\\People\\frmShowPersonInfo.cs [Design]",
+              "RelativeToolTip": "People\\frmShowPersonInfo.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T17:43:46.219Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "frmListPeople.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Fares\\DVLD-Project\\DVLD\\Project\\DVLD\\People\\frmListPeople.cs",
               "RelativeDocumentMoniker": "People\\frmListPeople.cs",
               "ToolTip": "C:\\Users\\Fares\\DVLD-Project\\DVLD\\Project\\DVLD\\People\\frmListPeople.cs [Design]",
               "RelativeToolTip": "People\\frmListPeople.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T21:13:54.022Z",
+              "WhenOpened": "2025-07-13T17:43:44.446Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmFindPerson.cs",
+              "DocumentMoniker": "C:\\Users\\Fares\\DVLD-Project\\DVLD\\Project\\DVLD\\People\\frmFindPerson.cs",
+              "RelativeDocumentMoniker": "People\\frmFindPerson.cs",
+              "ToolTip": "C:\\Users\\Fares\\DVLD-Project\\DVLD\\Project\\DVLD\\People\\frmFindPerson.cs",
+              "RelativeToolTip": "People\\frmFindPerson.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAiwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T17:43:03.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmFindPerson.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Fares\\DVLD-Project\\DVLD\\Project\\DVLD\\People\\frmFindPerson.cs",
+              "RelativeDocumentMoniker": "People\\frmFindPerson.cs",
+              "ToolTip": "C:\\Users\\Fares\\DVLD-Project\\DVLD\\Project\\DVLD\\People\\frmFindPerson.cs [Design]",
+              "RelativeToolTip": "People\\frmFindPerson.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T17:42:37.16Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ctrlPersonCardWithFilter.cs",
+              "DocumentMoniker": "C:\\Users\\Fares\\DVLD-Project\\DVLD\\Project\\DVLD\\People\\Controls\\ctrlPersonCardWithFilter.cs",
+              "RelativeDocumentMoniker": "People\\Controls\\ctrlPersonCardWithFilter.cs",
+              "ToolTip": "C:\\Users\\Fares\\DVLD-Project\\DVLD\\Project\\DVLD\\People\\Controls\\ctrlPersonCardWithFilter.cs",
+              "RelativeToolTip": "People\\Controls\\ctrlPersonCardWithFilter.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAAADoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T17:32:16.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ctrlPersonCardWithFilter.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Fares\\DVLD-Project\\DVLD\\Project\\DVLD\\People\\Controls\\ctrlPersonCardWithFilter.cs",
+              "RelativeDocumentMoniker": "People\\Controls\\ctrlPersonCardWithFilter.cs",
+              "ToolTip": "C:\\Users\\Fares\\DVLD-Project\\DVLD\\Project\\DVLD\\People\\Controls\\ctrlPersonCardWithFilter.cs [Design]",
+              "RelativeToolTip": "People\\Controls\\ctrlPersonCardWithFilter.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T17:32:12.323Z",
               "EditorCaption": " [Design]"
             }
           ]

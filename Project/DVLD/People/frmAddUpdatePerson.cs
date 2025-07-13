@@ -81,7 +81,7 @@ namespace DVLD.People
             dtpDateOfBirth.MinDate = DateTime.Now.AddYears(-100);
 
             //this will set default country to jordan.
-            cbCountry.SelectedIndex = cbCountry.FindString("Jordan");
+            cbCountry.SelectedIndex = cbCountry.FindString("Syria");
 
             txtFirstName.Text = "";
             txtSecondName.Text = "";

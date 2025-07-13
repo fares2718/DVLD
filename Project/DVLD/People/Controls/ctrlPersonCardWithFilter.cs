@@ -88,7 +88,10 @@ namespace DVLD.Controls
             switch (cbFilterBy.Text)
             {
                 case "Person ID":
-                    ctrlPersonCard1.LoadPersonInfo(int.Parse(txtFilterValue.Text));
+                    if (int.TryParse(txtFilterValue.Text, out int FilterVal))
+                    {
+                        ctrlPersonCard1.LoadPersonInfo(FilterVal);
+                    }
                    
                     break;
 
