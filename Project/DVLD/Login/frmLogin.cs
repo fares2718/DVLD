@@ -35,13 +35,13 @@ namespace DVLD.Login
                 if (chkRememberMe.Checked )
                 {
                     //store username and password
-                    clsGlobal.RememberUsernameAndPassword(txtUserName.Text.Trim(), txtPassword.Text.Trim());
+                    clsGlobal.RegisterCredential(txtUserName.Text.Trim(), txtPassword.Text.Trim());
 
                 } 
                   else
                 {
                     //store empty username and password
-                    clsGlobal.RememberUsernameAndPassword("", "");
+                    clsGlobal.RegisterCredential("", "");
 
                 }
 
@@ -50,7 +50,7 @@ namespace DVLD.Login
                 {
 
                     txtUserName.Focus();
-                    MessageBox.Show("Your accound is not Active, Contact Admin.", "In Active Account", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Your account is not Active, Contact Admin.", "In Active Account", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
                 }
 
@@ -72,10 +72,13 @@ namespace DVLD.Login
         {
             string UserName = "", Password = "";
 
-            if (clsGlobal.GetStoredCredential(ref UserName, ref Password))
+            if (clsGlobal.RestoreCredential(ref UserName, ref Password))
             {
-                txtUserName.Text = UserName;
-                txtPassword.Text = Password;
+                if(UserName!=null&& Password != null)
+                {
+                    txtUserName.Text = UserName;
+                    txtPassword.Text = Password;
+                }
                 chkRememberMe.Checked = true;
             }
             else

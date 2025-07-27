@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Microsoft.Win32;
 using DVLD_Buisness;
 
 
@@ -14,6 +15,7 @@ namespace DVLD.Classes
     {
         public static clsUser CurrentUser;
 
+        [Obsolete]
         public static bool RememberUsernameAndPassword(string Username, string Password)
         {
 
@@ -54,6 +56,29 @@ namespace DVLD.Classes
 
         }
 
+        public static bool RegisterCredential(string username,string password)
+        {
+            bool IsSaved=false;
+            string keyPath = @"HKEY_CURRENT_USER\SOFTWARE\DVLD";
+
+            try
+            {
+                using (RegistryKey key = Registry.CurrentUser.CreateSubKey(keyPath))
+                {
+                    Registry.SetValue(keyPath, "Username", username, RegistryValueKind.String);
+                    Registry.SetValue(keyPath, "Password", password, RegistryValueKind.String);
+                    IsSaved = true;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"An error occurred: {ex.Message}");
+                IsSaved = true;
+            }
+            return IsSaved;
+        }
+
+        [Obsolete]
         public static bool GetStoredCredential(ref string Username, ref string Password)
         {
             //this will get the stored username and password and will return true if found and false if not found.
@@ -96,5 +121,28 @@ namespace DVLD.Classes
             }
 
         }
+
+        public static bool RestoreCredential(ref string username,ref string password)
+        {
+            bool IsSaved = false;
+            string keyPath = @"HKEY_CURRENT_USER\SOFTWARE\DVLD";
+
+            try
+            {
+                using (RegistryKey key = Registry.CurrentUser.OpenSubKey(keyPath))
+                {
+                    username = Registry.GetValue(keyPath, "Username", null) as string;
+                    password = Registry.GetValue(keyPath, "Password", null) as string;
+                    IsSaved = true;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"An error occurred: {ex.Message}");
+                IsSaved = false;
+            }
+            return IsSaved;
+        }
+
     }
 }
